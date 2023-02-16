@@ -1,6 +1,6 @@
 {
-    "version":"1.6.0",
+    "version":"1.5.0",
     "message":"^0[^5Jc-peds^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^5[Jc-peds] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - FIX ERROR IN CONFIG.LUA  \n - FIX ERROR IN CONFIG.LUA"
+    "changes":"Changes in this update: \n - You can now rename fivem-appearance in config.lua in case you use illenium-appearance  \n - Fixed player display name (**invalid**)"
 }
