@@ -1,6 +1,6 @@
 {
     "version":"1.6.0",
-    "message":"[Jc-peds] new version available, last version NEW - Your version OLD",
-    "lastVersion":"[Jc-peds] Running latest version",
+    "message":"^0[^5Jc-peds^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
+    "lastVersion":"^5[Jc-peds] ^0Running ^2latest ^0version",
     "changes":"Changes in this update: \n - FIX ERROR IN CONFIG.LUA  \n - FIX ERROR IN CONFIG.LUA"
 }
