@@ -1,6 +1,6 @@
 {
-    "version":"2.7.0",
+    "version":"2.8.0",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \nNow you can set the name of your clothing system this in case you use a different name than normal\n Modifications in the config.lua"
+    "changes":"Changes in this update: \nFixed a bug that places the skin of the other player, this only happens with fivem-apparance"
 }
