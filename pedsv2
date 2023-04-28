@@ -1,6 +1,6 @@
 {
-    "version":"1.7.0",
+    "version":"1.8.0",
     "message":"^0[^5Jc-peds^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-peds^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Now you can choose if you want the skin to be placed automatically when you enter the server \n - You can now place skins for all players (optional) \n - Menu improvements for better usability \n - Fixes in permissions for qbcore \n - Added a little more time to check if the requested skin exists \n - Now put the name of the clothing in case you use a custom name"
+    "changes":"Changes in this update: \n - Fixed the invisible character after putting on a skin, this only happened with some skins"
 }
