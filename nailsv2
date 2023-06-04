@@ -1,6 +1,6 @@
 {
-    "version":"2.9.0",
+    "version":"3.0.0",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Fixed problem that sometimes when entering and leaving the server you could not open the nails menu, this only happened in esx \n - Menu libraries are now local (fast menu loading for players with a bad connection)"
+    "changes":"Changes in this update: \n - Fixed the error that did not save the nails using the illenium-appearance clothing"
 }
