@@ -1,6 +1,6 @@
 {
-    "version":"3.0.0",
+    "version":"3.1.0",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Fixed the error that did not save the nails using the illenium-appearance clothing"
+    "changes":"Changes in this update: \n - Fixed the system of reloading the skin when you close the menu of making nails"
 }
