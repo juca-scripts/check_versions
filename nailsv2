@@ -1,6 +1,6 @@
 {
-    "version":"3.1.0",
+    "version":"3.2.0",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Fixed the system of reloading the skin when you close the menu of making nails"
+    "changes":"Changes in this update: \n - An error was fixed that the job was not obtained until the resource was restarted or the job was placed again \n - Fixed an error that appears in the server console when you use Job.Type as 2"
 }
