@@ -1,6 +1,6 @@
 {
-    "version":"1.2.0",
+    "version":"1.2.1",
     "message":"^0[^5Jc-taxes^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-taxes^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Add auto_detect framework \n - Add auto_detect society qb system \n - The recent version changed to 1.2.0 now the versions change the 3 digits."
+    "changes":"Changes in this update: \n - Taxes on cash money were added \n - Added sending the bank money to negative if you do not have enough money in cash and bank"
 }
