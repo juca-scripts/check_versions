@@ -1,6 +1,6 @@
 {
-    "version":"1.9.0",
+    "version":"1.0.9",
     "message":"^0[^5Jc-peds^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-peds^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Added auto-detect framework \n - Added auto-detect clothing \n - Moved the sql file to jc-peds/sql \n - Moved the readme file to jc-peds/readme \n - Fixed the function of applying the ped automatically when it is qbcore \n - Fixed the function to detect if the model ped exists"
+    "changes":"Changes in this update: \n - Added support ox_lib \n - Now version 1.0.9 is the latest version"
 }
