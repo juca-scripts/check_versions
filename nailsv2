@@ -1,6 +1,6 @@
 {
-    "version":"1.3.4",
+    "version":"1.3.5",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Add support menu ox_lib \n - Compatibility codem-appearance \n - Dark mode added to nail menu \n - Now you can put nails on men \n - minor bugs fixed \n - Now version 1.3.4 is the latest"
+    "changes":"Changes in this update: \n - Now you can place nails from different clothing categories. \n - Fix compatibility codem-appearance \n - This is an important update if you have any issues please create a ticket as soon as possible."
 }
