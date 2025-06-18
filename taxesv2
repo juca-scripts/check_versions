@@ -1,6 +1,6 @@
 {
-    "version":"1.2.2",
+    "version":"1.2.3",
     "message":"^0[^5Jc-taxes^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-taxes^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Added support for getting vehicle prices with savana-vehicleshop"
+    "changes":"Changes in this update: \n - Fix support for loaf_housing"
 }
