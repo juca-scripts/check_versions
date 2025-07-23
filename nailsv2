@@ -1,6 +1,6 @@
 {
-    "version":"1.3.5",
+    "version":"1.3.6",
     "message":"^0[^5Jc-nails^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-nails^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Now you can place nails from different clothing categories. \n - Fix compatibility codem-appearance \n - This is an important update if you have any issues please create a ticket as soon as possible."
+    "changes":"Changes in this update: \n - Add support clothing will_skinshop. \n - Add function Open boss menu. \n - Add support kossek_society. \n - Minor fix."
 }
