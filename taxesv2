@@ -1,6 +1,6 @@
 {
-    "version":"1.2.3",
+    "version":"1.2.4",
     "message":"^0[^5Jc-taxes^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
     "lastVersion":"^0[^5Jc-taxes^0] ^0Running ^2latest ^0version",
-    "changes":"Changes in this update: \n - Fix support for loaf_housing"
+    "changes":"Changes in this update: \n - Add support nolag_properties"
 }
