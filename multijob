@@ -1,9 +1,13 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "message": "^0[^5Jc-multijob^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
     "lastVersion": "^0[^5Jc-multijob^0] ^0Running ^2latest ^0version",
     "download": "https://portal.cfx.re/assets/granted-assets?search=jc-multijob",
     "changelog": {
+        "1.0.2": [
+            "Reduce prints to start script",
+            "Add new system release"
+        ],
         "1.0.1": [
             "Fix the database file never being loaded, which left the table uncreated",
             "Resolve qbx_core through the config table, for pure QBox servers",
@@ -13,5 +17,5 @@
             "Init version"
         ]
     },
-    "changes": "Changes in this update: \n - Fix the database file never being loaded, which left the table uncreated\n - Resolve qbx_core through the config table, for pure QBox servers\n - The version checker now lists every change released after your version"
+    "changes": "Changes in this update: \n - Reduce prints to start script\n - Add new system release"
 }
