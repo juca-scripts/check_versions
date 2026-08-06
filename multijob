@@ -2,7 +2,7 @@
     "version": "1.0.1",
     "message": "^0[^5Jc-multijob^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
     "lastVersion": "^0[^5Jc-multijob^0] ^0Running ^2latest ^0version",
-    "download": "https://portal.cfx.re/assets/granted-assets",
+    "download": "https://portal.cfx.re/assets/granted-assets?search=jc-multijob",
     "changelog": {
         "1.0.1": [
             "Fix the database file never being loaded, which left the table uncreated",
