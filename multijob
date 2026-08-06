@@ -1,9 +1,12 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "message": "^0[^5Jc-multijob^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
     "lastVersion": "^0[^5Jc-multijob^0] ^0Running ^2latest ^0version",
     "download": "https://portal.cfx.re/assets/granted-assets?search=jc-multijob",
     "changelog": {
+        "1.0.3": [
+            "Optimize auto sql install"
+        ],
         "1.0.2": [
             "Reduce prints to start script",
             "Add new system release"
@@ -17,5 +20,5 @@
             "Init version"
         ]
     },
-    "changes": "Changes in this update: \n - Reduce prints to start script\n - Add new system release"
+    "changes": "Changes in this update: \n - Optimize auto sql install"
 }
