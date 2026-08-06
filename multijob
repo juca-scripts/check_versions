@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "message": "^0[^5Jc-multijob^0] ^0new version ^2available^0, last version ^3NEW ^0- Your version OLD",
+    "lastVersion": "^0[^5Jc-multijob^0] ^0Running ^2latest ^0version",
+    "changesHeader": "Changes since your version OLD:",
+    "changelog": {
+        "1.0.0": [
+            "Init version"
+        ]
+    },
+    "changes": "Changes in this update: \n - Init version"
+}
