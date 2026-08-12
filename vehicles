@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "message": "^0[^5Jc-vehicles^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
+    "lastVersion": "^0[^5Jc-vehicles^0] ^0Running ^2latest ^0version",
+    "download": "https://portal.cfx.re/assets/granted-assets?search=jc-vehicles",
+    "changelog": {
+        "1.0.0": [
+            "Data driven part registry: engine, oil, brakes, tires, suspension, spark plugs, nitro, turbo and transmission all share one wear engine, one install flow and one UI. Adding a part is a config entry, not code.",
+            "Workshop terminal (Vue 3): slot rings, a live dyno preview of what the part will do before it is installed, repair recipes, and a service history tab.",
+            "Engine variants change the vehicle sound, replicated through a statebag so late joiners hear it too.",
+            "Handling baseline snapshot per model: modifiers are absolute, they never stack when re-entering a vehicle, and the stock values are restored on exit.",
+            "Engine temperature tied to the oil level, with overheating damage. A healthy engine settles at the target temperature from the config.",
+            "Spark plugs cut the ignition at random once worn, and block it completely when dead.",
+            "Nitro with boost, purge and flames, synced to nearby players. Refilling a bottle costs its own items.",
+            "Old parts come back to the inventory with their remaining condition stored as item metadata.",
+            "HUD with odometer, warning lights, temperature gauge and nitro bottle, draggable and remembered per player.",
+            "Install, repair and refill are authorised on the server: it resolves the vehicle from its network id, checks the plate really belongs to that entity, that the player is standing within `Config.MaxWorkDistance` of it, and recomputes the access level from their position, job and items. A crafted callback cannot touch a car across the map.",
+            "Wear reported by the client can only ever go down.",
+            "Parts can be locked to certain spawn names or vehicle classes with `exclusive` and `classes`, filtered in the terminal and enforced again on install.",
+            "Every install, repair and refill is recorded with the mechanic and the odometer reading, readable from the terminal or through the `GetServiceHistory` export.",
+            "`Config.BlockLockedVehicles` refuses a locked car, and `Config.OffroadMaterials` decides which surfaces wear a vehicle faster, with a snippet in the config to read the real value under your wheels.",
+            "`/jcv-debug` behind `Config.Debug` prints the detected framework and inventory plus every configured part item it can see on you.",
+            "Batched database writes, tables auto installed, and automatic migration from the legacy `vehicle_parts` table."
+        ]
+    },
+    "changes": "Changes in this update: \n - Data driven part registry: engine, oil, brakes, tires, suspension, spark plugs, nitro, turbo and transmission all share one wear engine, one install flow and one UI. Adding a part is a config entry, not code.\n - Workshop terminal (Vue 3): slot rings, a live dyno preview of what the part will do before it is installed, repair recipes, and a service history tab.\n - Engine variants change the vehicle sound, replicated through a statebag so late joiners hear it too.\n - Handling baseline snapshot per model: modifiers are absolute, they never stack when re-entering a vehicle, and the stock values are restored on exit.\n - Engine temperature tied to the oil level, with overheating damage. A healthy engine settles at the target temperature from the config.\n - Spark plugs cut the ignition at random once worn, and block it completely when dead.\n - Nitro with boost, purge and flames, synced to nearby players. Refilling a bottle costs its own items.\n - Old parts come back to the inventory with their remaining condition stored as item metadata.\n - HUD with odometer, warning lights, temperature gauge and nitro bottle, draggable and remembered per player.\n - Install, repair and refill are authorised on the server: it resolves the vehicle from its network id, checks the plate really belongs to that entity, that the player is standing within `Config.MaxWorkDistance` of it, and recomputes the access level from their position, job and items. A crafted callback cannot touch a car across the map.\n - Wear reported by the client can only ever go down.\n - Parts can be locked to certain spawn names or vehicle classes with `exclusive` and `classes`, filtered in the terminal and enforced again on install.\n - Every install, repair and refill is recorded with the mechanic and the odometer reading, readable from the terminal or through the `GetServiceHistory` export.\n - `Config.BlockLockedVehicles` refuses a locked car, and `Config.OffroadMaterials` decides which surfaces wear a vehicle faster, with a snippet in the config to read the real value under your wheels.\n - `/jcv-debug` behind `Config.Debug` prints the detected framework and inventory plus every configured part item it can see on you.\n - Batched database writes, tables auto installed, and automatic migration from the legacy `vehicle_parts` table."
+}

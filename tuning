@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "message": "^0[^5Jc-tuning^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
+    "lastVersion": "^0[^5Jc-tuning^0] ^0Running ^2latest ^0version",
+    "download": "https://portal.cfx.re/assets/granted-assets?search=jc-tuning",
+    "changelog": {
+        "1.0.0": [
+            "Tuning shop with a live preview: every mod is fitted on the vehicle as it is picked and added to an order, nothing is charged until the player pays, and closing the menu without paying puts the vehicle back exactly as it was found.",
+            "Job shops and self service booths. Each one has its own premium on top of every price, can be free, and can refuse to fit individual mods or whole tabs.",
+            "`Config.FreeMode`: one switch that puts every price at zero, in the menu and at the till. Both sides share the same pricing call, so the menu can never show a price the server would not charge.",
+            "Two pricing modes: a fixed price per mod, or a share of what the vehicle is worth (read from okokVehicleShop, the framework's shared vehicle list or the `vehicles` table). Levelled upgrades cost more the higher they go.",
+            "Employees can put the bill on the company account. The banking resource (qb-banking, qb-management, qb-bossmenu, okokBanking, esx_addonaccount, Renewed-Banking) is detected on start.",
+            "Every price is recomputed on the server, on the very value that is about to be stored: the level that is charged for is the level that ends up on the vehicle.",
+            "Cameras travel to whatever is being bought, opening the doors that need opening. Free camera, and the vehicle turns on the spot.",
+            "Repair bay whose price follows the damage, read from the server. `/trepair` repairs for free for the mechanics.",
+            "`/vehstats` reads the vehicle: handling bars, top speed, drivetrain and the level of every performance mod.",
+            "Everything bought is stored per plate and merged into the vehicle row the garages already read, so the tuning survives a garage in / garage out with nothing else installed.",
+            "Discord logs, ace permissions, English and Spanish."
+        ]
+    },
+    "changes": "Changes in this update: \n - Tuning shop with a live preview: every mod is fitted on the vehicle as it is picked and added to an order, nothing is charged until the player pays, and closing the menu without paying puts the vehicle back exactly as it was found.\n - Job shops and self service booths. Each one has its own premium on top of every price, can be free, and can refuse to fit individual mods or whole tabs.\n - `Config.FreeMode`: one switch that puts every price at zero, in the menu and at the till. Both sides share the same pricing call, so the menu can never show a price the server would not charge.\n - Two pricing modes: a fixed price per mod, or a share of what the vehicle is worth (read from okokVehicleShop, the framework's shared vehicle list or the `vehicles` table). Levelled upgrades cost more the higher they go.\n - Employees can put the bill on the company account. The banking resource (qb-banking, qb-management, qb-bossmenu, okokBanking, esx_addonaccount, Renewed-Banking) is detected on start.\n - Every price is recomputed on the server, on the very value that is about to be stored: the level that is charged for is the level that ends up on the vehicle.\n - Cameras travel to whatever is being bought, opening the doors that need opening. Free camera, and the vehicle turns on the spot.\n - Repair bay whose price follows the damage, read from the server. `/trepair` repairs for free for the mechanics.\n - `/vehstats` reads the vehicle: handling bars, top speed, drivetrain and the level of every performance mod.\n - Everything bought is stored per plate and merged into the vehicle row the garages already read, so the tuning survives a garage in / garage out with nothing else installed.\n - Discord logs, ace permissions, English and Spanish."
+}
