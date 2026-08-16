@@ -1,9 +1,19 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "message": "^0[^5Jc-vehicles^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
     "lastVersion": "^0[^5Jc-vehicles^0] ^0Running ^2latest ^0version",
     "download": "https://portal.cfx.re/assets/granted-assets?search=jc-vehicles",
     "changelog": {
+        "1.0.2": [
+            "Repaired engines no longer keep smoking, and a vehicle no longer gets damaged when another player inspects it",
+            "The terminal no longer freezes when you open a slot you are not carrying a part for",
+            "Parts restricted to certain vehicles now work on all of them instead of only some",
+            "Installing a part can no longer consume nothing and leave the item in the inventory",
+            "Part and material names now follow the language set in the config",
+            "txAdmin vehicle repairs now repair the installed parts as well",
+            "The HUD now hides with the pause menu",
+            "A vehicle can no longer be read or modified by a player who is not next to it"
+        ],
         "1.0.1": [
             "Item images are now compatible with the AK47 inventories, both the QB and the ESX build",
             "The controls are locked while the install and repair animation plays, so crouching no longer cancels the job halfway through"
@@ -12,5 +22,5 @@
             "First release."
         ]
     },
-    "changes": "Changes in this update: \n - Item images are now compatible with the AK47 inventories, both the QB and the ESX build\n - The controls are locked while the install and repair animation plays, so crouching no longer cancels the job halfway through"
+    "changes": "Changes in this update: \n - Repaired engines no longer keep smoking, and a vehicle no longer gets damaged when another player inspects it\n - The terminal no longer freezes when you open a slot you are not carrying a part for\n - Parts restricted to certain vehicles now work on all of them instead of only some\n - Installing a part can no longer consume nothing and leave the item in the inventory\n - Part and material names now follow the language set in the config\n - txAdmin vehicle repairs now repair the installed parts as well\n - The HUD now hides with the pause menu\n - A vehicle can no longer be read or modified by a player who is not next to it"
 }
