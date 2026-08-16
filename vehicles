@@ -1,9 +1,17 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "message": "^0[^5Jc-vehicles^0] ^0new version ^2available^0: ^3NEW ^0- you are on ^1OLD^0, ^3BEHIND^0 release(s) behind",
     "lastVersion": "^0[^5Jc-vehicles^0] ^0Running ^2latest ^0version",
     "download": "https://portal.cfx.re/assets/granted-assets?search=jc-vehicles",
     "changelog": {
+        "1.0.3": [
+            "Three new turbos: Garrett, Melett and Holset",
+            "New carbon brakes, a step above the racing ones",
+            "Two new gearboxes: a Tiptronic between the stock one and the sequentials, and a CVT above them",
+            "Two new oils, Valvoline and MOTUL, between the mineral and the synthetic one",
+            "Some parts renamed so every tier now reads in order",
+            "Paste the item files again to get the new parts and the new names in your inventory"
+        ],
         "1.0.2": [
             "Repaired engines no longer keep smoking, and a vehicle no longer gets damaged when another player inspects it",
             "The terminal no longer freezes when you open a slot you are not carrying a part for",
@@ -22,5 +30,5 @@
             "First release."
         ]
     },
-    "changes": "Changes in this update: \n - Repaired engines no longer keep smoking, and a vehicle no longer gets damaged when another player inspects it\n - The terminal no longer freezes when you open a slot you are not carrying a part for\n - Parts restricted to certain vehicles now work on all of them instead of only some\n - Installing a part can no longer consume nothing and leave the item in the inventory\n - Part and material names now follow the language set in the config\n - txAdmin vehicle repairs now repair the installed parts as well\n - The HUD now hides with the pause menu\n - A vehicle can no longer be read or modified by a player who is not next to it"
+    "changes": "Changes in this update: \n - Three new turbos: Garrett, Melett and Holset\n - New carbon brakes, a step above the racing ones\n - Two new gearboxes: a Tiptronic between the stock one and the sequentials, and a CVT above them\n - Two new oils, Valvoline and MOTUL, between the mineral and the synthetic one\n - Some parts renamed so every tier now reads in order\n - Paste the item files again to get the new parts and the new names in your inventory"
 }
